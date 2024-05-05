@@ -20,3 +20,9 @@ Una vez concluida la sesión, cualquier información interceptada permanecerá c
 "Understanding Forward Secrecy" - Cloudflare: https://blog.cloudflare.com/what-is-forward-secrecy/
 
 
+Otras referencias
+https://www.javatpoint.com/socket-programming
+https://riptutorial.com/java/example/579/basic-client-and-server-communication-using-a-socket
+https://www.javatpoint.com/socket-programming
+https://www.baeldung.com/a-guide-to-java-sockets
+https://docs.oracle.com/en/java/javase/11/security/sample-code-illustrating-secure-socket-connection-client-and-server.html

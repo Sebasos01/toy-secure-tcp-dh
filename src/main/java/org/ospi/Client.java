@@ -16,7 +16,7 @@ import static org.ospi.Encryption.*;
 
 public class Client {
     public static void main(String[] args) {
-        int N = 32;
+        int N = 1;
         for (int i = 0; i < N; i++) {
             new Thread(Client::makeRequest).start();
         }
@@ -36,7 +36,7 @@ public class Client {
             SecretKey HMACSEcretKey;
 
             // Step 1
-            BigInteger challenge = new BigInteger(130, new SecureRandom());
+            BigInteger challenge = new BigInteger(1024, new SecureRandom());
             String challengeStr = challenge.toString(16);
             messageToSend = String.format("%s;%s", "SECURE INIT", challengeStr);
             out.println(messageToSend);
