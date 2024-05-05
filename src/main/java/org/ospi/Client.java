@@ -16,7 +16,7 @@ import static org.ospi.Encryption.*;
 
 public class Client {
     public static void main(String[] args) {
-        int N = 1;
+        int N = 32;
         for (int i = 0; i < N; i++) {
             new Thread(Client::makeRequest).start();
         }
