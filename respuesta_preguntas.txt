@@ -26,3 +26,5 @@ https://riptutorial.com/java/example/579/basic-client-and-server-communication-u
 https://www.javatpoint.com/socket-programming
 https://www.baeldung.com/a-guide-to-java-sockets
 https://docs.oracle.com/en/java/javase/11/security/sample-code-illustrating-secure-socket-connection-client-and-server.html
+https://www.baeldung.com/java-aes-encryption-decryption
+https://www.example-code.com/java/aes_cbc_256_pbkdf2_password.asp
